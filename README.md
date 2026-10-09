@@ -39,12 +39,6 @@ node tests/browser-check.js
 
 脚本默认使用 macOS 的 Chrome 路径；其他环境通过 `BROWSER_EXECUTABLE` 指定浏览器可执行文件。检查报告与截图输出到 `artifacts/browser-check/`，不会提交到仓库。
 
-## 从个人网站仓库迁移
-
-本项目原位于 [kieran0625.github.io](https://github.com/kieran0625/kieran0625.github.io) 仓库的 `buaa-engineering-ethics/` 子目录，现由本仓库独立维护和部署。题库源码、全部 Markdown 资料、构建脚本和测试脚本均位于本仓库根目录；个人主页仍由原仓库维护。
-
-在线网址保持不变，无需修改收藏夹。同一浏览器、同一浏览器配置中原有的错题、收藏和练习记录继续使用 `engineering-ethics-progress-v1` 本地存储键。不同浏览器或设备之间不自动同步，离线文件的记录与在线网站不共享。
-
 ## 文件说明
 
 - index.html：可独立打开的完整网页。
